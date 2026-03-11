@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Каталог
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши домики для котов</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Норка Уюта",
+              category: "Домик-куб с мягкой подушкой · 2 990 ₽",
+              year: "Хит",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Замок Тихона",
+              category: "Двухэтажный домик с когтеточкой · 5 490 ₽",
+              year: "Новинка",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Облачная лежанка",
+              category: "Мягкая лежанка-гнездо · 1 990 ₽",
+              year: "Sale",
               direction: "left",
             },
           ].map((project, i) => (

@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Коллекции
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Для каждого питомца</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "🏡 Домики-кубы",
+              description: "Закрытые уютные домики с мягкими подушками — идеальный уголок для сна и отдыха",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "🐾 Когтеточки и комплексы",
+              description: "Игровые комплексы с домиком, когтеточкой и площадками для активных котов",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "☁️ Лежанки и гнёзда",
+              description: "Мягкие лежанки, гнёзда и подвесные гамаки для самых нежных питомцев",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "🎁 Подарочные наборы",
+              description: "Готовые наборы с домиком, игрушками и лакомствами — лучший подарок для кота",
               direction: "bottom",
             },
           ].map((service, i) => (
